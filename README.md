@@ -5,7 +5,7 @@ This tutorial will explain how to create and deploy a subnet, compile and deploy
 ## Prerequisites
 
 ### NodeJS and Yarn
-### Subnet-cli 
+### Subnet-cli and git 
 ## Ubuntu 22.04 or similar
 
 First, install [nodejs](https://deb.nodesource.com/setup_18.x) Version `18` or more recent
@@ -19,19 +19,25 @@ Next, install [yarn](https://yarnpkg.com)
 sudo npm install -g yarn
 ```
 
+Install GIT
+
+```zsh
+sudo apt install -y git
+```
+
 And finally, install [subnet-cli](https://docs.avax.network/quickstart/tools-list#subnet-cli)
 
 ```zsh
 curl -sSfL https://raw.githubusercontent.com/ava-labs/avalanche-cli/main/scripts/install.sh | sudo sh -s -- -b /usr/local/bin
 ```
 
-## Create and deploy a Subnet
-
 We install the binary of avalanche of subnet-cli in /usr/local/bin so is in your path
 
 ```zsh
 echo $PATH (to verify)
 ```
+
+## Create and deploy a Subnet
 
 To install and deploy your subnet, you need to know
 1) the name of the subnet
@@ -89,8 +95,8 @@ You need to fill this file with your blockchain information
 
 On the local network configuration, replace
 
-- ✅ url : put the RPC URL information given when you deploy your subnet
-- ✅ chainId : the number you put on Chain ID
+- ✅ url: put the RPC URL information given when you deploy your subnet
+- ✅ chainId: the number you put on Chain ID
 
 Test with some tasks, if everything are ok
 
@@ -128,14 +134,14 @@ Now you need to access at the 1 million token you minted with metamask wallet
 
 To do this, just create a new network
 
-In metamsk app : parameters > network > create a new network
+In metamsk app: parameters > network > create a new network
 
 Fill with the information of your new subnet
 
-- ✅ Network Name : myfactory
-- ✅ New URL RPC : put the RPC URL information given when you deploy your subnet
-- ✅ Chain ID : the number you put on Chain ID
-- ✅ Symbol of token : the ticker of you token
+- ✅ Network Name: myfactory
+- ✅ New URL RPC: put the RPC URL information given when you deploy your subnet
+- ✅ Chain ID: the number you put on Chain ID
+- ✅ Symbol of token: the ticker of you token
 
 Then save
 
