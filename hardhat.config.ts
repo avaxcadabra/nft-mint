@@ -3,20 +3,6 @@ import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers"
 import { BigNumber } from "ethers"
 import "@nomiclabs/hardhat-waffle"
 
-// When using the hardhat network, you may choose to fork Fuji or Avalanche Mainnet
-// This will allow you to debug contracts using the hardhat network while keeping the current network state
-// To enable forking, turn one of these booleans on, and then run your tasks/scripts using ``--network hardhat``
-// For more information go to the hardhat guide
-// https://hardhat.org/hardhat-network/
-// https://hardhat.org/guides/mainnet-forking.html
-const FORK_FUJI = false
-const FORK_MAINNET = false
-const forkingData = FORK_FUJI ? {
-  url: 'https://api.avax-test.network/ext/bc/C/rpc',
-} : FORK_MAINNET ? {
-  url: 'https://api.avax.network/ext/bc/C/rpc'
-} : undefined
-
 task("accounts", "Prints the list of accounts", async (args, hre): Promise<void> => {
   const accounts: SignerWithAddress[] = await hre.ethers.getSigners()
   accounts.forEach((account: SignerWithAddress): void => {
@@ -46,11 +32,6 @@ export default {
       artifacts: './src/artifacts',
     },
   networks: {
-    hardhat: {
-      gasPrice: 225000000000,
-      chainId: !forkingData ? 43112 : undefined, //Only specify a chainId if we are not forking
-      forking: forkingData
-    },
     local: {
       url: 'http://127.0.0.1:9650/ext/bc/acDdejjgindhL8ZUgAqwjGhtiNPcbF114KdPN8fgQmTGqPASm/rpc',
       gasPrice: 225000000000,
