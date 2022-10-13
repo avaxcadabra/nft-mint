@@ -38,30 +38,29 @@ To install and deploy your subnet, you need to know
 
 Create the subnet myfactory with ticker MFY and chain ID number 123
 
-```zsh
 avalanche subnet create myfactory 
-> Choose your VM: SubnetEVM
-> ChainId: 123 (or what you want)
-> Select a symbol for your subnet\'s native token: MFY 
-> What version of Subnet-EVM would you like?: Use latest version
-> How would you like to set fees: Low disk use / Low Throughput 1.5 mil gas/s (C-Chain\'s setting)
-> How would you like to distribute funds: Airdrop 1 million tokens to the default address (do not use in production)
-> Advanced: Would you like to add a custom precompile to modify the EVM\?: No
-```
+- ✅ Choose your VM: SubnetEVM
+- ✅ ChainId: 123 (or what you want)
+- ✅ Select a symbol for your subnet's native token: MFY 
+- ✅ What version of Subnet-EVM would you like?: Use latest version
+- ✅ How would you like to set fees: Low disk use / Low Throughput 1.5 mil gas/s (C-Chain's setting)
+- ✅ How would you like to distribute funds: Airdrop 1 million tokens to the default address (do not use in production)
+- ✅ Advanced: Would you like to add a custom precompile to modify the EVM\?: No
+
 
 The subnet are now created
 Let deploy on local network
 
-```zsh
 avalanche subnet deploy myfactory
-> Choose a network to deploy on: Local Network
-```
+- ✅ Choose a network to deploy on: Local Network
+
+
 Subnet-cli will print a dashboard with networks and endpoints informations
-> RPC URL: the endpoint to request your blockchain
-> Funded address and the private key to access funds
-> Network name:     myfactory
-> Chain ID:         123
-> Currency Symbol:  MFY
+- ✅ RPC URL: the endpoint to request your blockchain
+- ✅ Funded address and the private key to access funds
+- ✅ Network name:     myfactory
+- ✅ Chain ID:         123
+- ✅ Currency Symbol:  MFY
 
 
 ## Download the web3 app
@@ -76,11 +75,14 @@ yarn
 
 Hardhat uses `hardhat.config.js` as the configuration file. You can define tasks, networks, compilers and more in that file. For more information see [here](https://hardhat.org/config/).
 
-In our repository we use a pre-configured file hardhat.config.ts.
-You need to fill this file with your blockchain information.
-On the local network configuration, replace.
-> url : ‘put the RPC URL information given when you deploy your subnet'
-> chainId: the number you put on Chain ID
+In our repository we use a pre-configured file hardhat.config.ts
+
+You need to fill this file with your blockchain information
+
+On the local network configuration, replace
+
+- ✅ url : ‘put the RPC URL information given when you deploy your subnet'
+- ✅ chainId: the number you put on Chain ID
 
 Test with some tasks, if everything are ok
 
