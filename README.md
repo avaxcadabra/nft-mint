@@ -130,10 +130,11 @@ To do this, just create a new network
 In metamsk app : parameters > network > create a new network
 
 Fill with the information of your new subnet
-> Network Name : myfactory
-> New URL RPC : put the RPC URL information given when you deploy your subnet
-> Chain ID : the number you put on Chain ID
-> Symbol of token : the ticker of you token
+
+- ✅ Network Name : myfactory
+- ✅ New URL RPC : put the RPC URL information given when you deploy your subnet
+- ✅ Chain ID : the number you put on Chain ID
+- ✅ Symbol of token : the ticker of you token
 
 Then save
 
