@@ -125,7 +125,7 @@ copy somewhere the address of the contract printed in the ouptup of the deploy c
 
 ## Mint NFT Web3 APP
 
-First you have to edit the file in src/components/Home.jsx and replace the line :
+First you have to edit the file in src/components/Home.jsx and replace the 7th line :
 > const contractAddress = "YOUR_DEPLOYED_CONTRACT_ADDRESS" with the address of the contract copied before
 
 ## Configure metamask
