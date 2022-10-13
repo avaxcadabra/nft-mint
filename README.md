@@ -1,6 +1,6 @@
 ## Introduction
 
-This tutorial will explain how to create and deploy a subnet, compile and deploy on the fresh subnet a smart contract and then mint some NFT paid with the blcokchain token gournance created with the subnet
+This tutorial will explain how to create and deploy a subnet, compile and deploy on the newly created subnet a smart contract and then mint some NFT paid with the blcokchain token gournance created with the subnet
     
 ## Prerequisites
 
@@ -52,6 +52,7 @@ avalanche subnet create myfactory
 
 
 The subnet are now created
+
 Let deploy on local network
 
 ```zsh
@@ -87,8 +88,8 @@ You need to fill this file with your blockchain information
 
 On the local network configuration, replace
 
-- ✅ url : ‘put the RPC URL information given when you deploy your subnet'
-- ✅ chainId: the number you put on Chain ID
+- ✅ url : put the RPC URL information given when you deploy your subnet
+- ✅ chainId : the number you put on Chain ID
 
 Test with some tasks, if everything are ok
 
@@ -123,14 +124,18 @@ First you have to edit the file in src/components/Home.jsx and replace the line 
 ## Configure metamask
 
 Now you need to access at the 1 million token you minted with metamask wallet
-.To do this, just create a new network
-.In metamsk app : parameters > network > create a new network
-.fill with the information of your new subnet
+
+To do this, just create a new network
+
+In metamsk app : parameters > network > create a new network
+
+Fill with the information of your new subnet
 > Network Name : myfactory
 > New URL RPC : put the RPC URL information given when you deploy your subnet
 > Chain ID : the number you put on Chain ID
 > Symbol of token : the ticker of you token
-.then save
+
+Then save
 
 To access the address with the million token, just chose "import an account" and give the private key you got when deploy your subnet
 
