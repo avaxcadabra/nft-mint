@@ -147,7 +147,7 @@ Then save
 
 To access the address with the million token, just chose "import an account" and give the private key you got when deploy your subnet
 
-And that's all !!! you got a little beat less then 1 million because when you deploy the contract, you got to pay the fees of your subnet transactions :-)
+And that's all !!! you got a little bit less then 1 million because when you have deployed the contract, you paid the fees for your subnet transactions :-)
 
 ## Let's mint NFT
 
