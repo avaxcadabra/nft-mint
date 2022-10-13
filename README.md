@@ -54,10 +54,12 @@ avalanche subnet create myfactory
 The subnet are now created
 Let deploy on local network
 
-zsh```
+```zsh
 avalanche subnet deploy myfactory
 ```
+
 - ✅ Choose a network to deploy on: Local Network
+
 
 Subnet-cli will print a dashboard with networks and endpoints informations
 - ✅ RPC URL: the endpoint to request your blockchain
