@@ -101,8 +101,8 @@ On the local network configuration, replace
 Test with some tasks, if everything are ok
 
 ```zsh
-yarn accounts --network local (the account address with the minted tokens you create when deploy your subnet)
-yarn balances --network local (the amount of tokens you mint, will be 1 million (base 18)
+yarn accounts (the account address with the minted tokens you create when deploy your subnet)
+yarn balances (the amount of tokens you mint, will be 1 million (base 18)
 ```
 
 If everything going well, you are happy :-)
