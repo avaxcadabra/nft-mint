@@ -1,0 +1,53 @@
+{
+  "name": "nft-collection-factory",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.3.0",
+    "@types/chai": "^4.2.21",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.7.1",
+    "avalanche": "3.8.5",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethereumjs-tx": "^2.1.2",
+    "ethers": "^5.4.5",
+    "hardhat": "2.6.1",
+    "ts-node": "^10.2.1",
+    "web3": "^1.5.2",
+    "@vitejs/plugin-react": "^1.0.7",
+    "express": "^4.18.1",
+    "vite": "^2.7.2"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "repository": "",
+  "author": "Pedro Machado>",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "precompile": "rimraf ./build/",
+    "compile": "npx hardhat compile",
+    "console": "npx hardhat console",
+    "pretest": "yarn compile",
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.ts --network local",
+    "lint": "prettier ./test/**/*.ts --check",
+    "prepublishOnly": "yarn test",
+    "hardhat": "npx hardhat",
+    "accounts": "npx hardhat accounts",
+    "balances": "npx hardhat balances",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "typescript": "^4.5.4",
+    "hardhat": "^2.11.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "yarn": "^1.22.19"
+  },
+  "engines": {
+    "node": ">=14.17.0"
+  }
+}
