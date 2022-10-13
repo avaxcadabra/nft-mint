@@ -38,7 +38,9 @@ To install and deploy your subnet, you need to know
 
 Create the subnet myfactory with ticker MFY and chain ID number 123
 
-avalanche subnet create myfactory 
+zsh```
+avalanche subnet create myfactory
+``` 
 - ✅ Choose your VM: SubnetEVM
 - ✅ ChainId: 123 (or what you want)
 - ✅ Select a symbol for your subnet's native token: MFY 
@@ -51,9 +53,10 @@ avalanche subnet create myfactory
 The subnet are now created
 Let deploy on local network
 
+zsh```
 avalanche subnet deploy myfactory
 - ✅ Choose a network to deploy on: Local Network
-
+```
 
 Subnet-cli will print a dashboard with networks and endpoints informations
 - ✅ RPC URL: the endpoint to request your blockchain
