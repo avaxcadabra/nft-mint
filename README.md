@@ -6,6 +6,7 @@ This tutorial will explain how to create and deploy a subnet, compile and deploy
 
 ### NodeJS and Yarn
 ### Subnet-cli 
+## Ubuntu 22.04 or similar
 
 First, install [nodejs](https://deb.nodesource.com/setup_18.x) Version `18` or more recent
 ```zsh
