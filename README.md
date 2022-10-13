@@ -22,7 +22,7 @@ sudo npm install -g yarn
 And finally, install [subnet-cli](https://docs.avax.network/quickstart/tools-list#subnet-cli)
 
 ```zsh
-curl -sSfL https://raw.githubusercontent.com/ava-labs/avalanche-cli/main/scripts/install.sh | sh -s -- -b /usr/local/bin
+curl -sSfL https://raw.githubusercontent.com/ava-labs/avalanche-cli/main/scripts/install.sh | sudo sh -s -- -b /usr/local/bin
 ```
 
 ## Create and deploy a Subnet
