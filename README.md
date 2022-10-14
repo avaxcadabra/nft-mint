@@ -122,7 +122,8 @@ Now we deploy the contract on the subnet
 ```zsh
 yarn deploy
 ```
-copy somewhere the address of the contract printed in the ouptup of the deploy command
+
+🔴 WARNING: Copy somewhere the address of the contract printed in the ouptup of the deploy command ! 🔴 
 
 ## Mint NFT Web3 APP
 
