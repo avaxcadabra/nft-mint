@@ -81,8 +81,8 @@ Subnet-cli will print a dashboard with networks and endpoints informations
 ## Download the web3 app
 
 ```zsh
-git clone https://github.com/avaxcadabra/nft-mint \
-cd nft-mint \
+git clone https://github.com/avaxcadabra/nft-mint ;
+cd nft-mint ;
 yarn
 ```
 
