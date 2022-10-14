@@ -49,7 +49,7 @@ function Home() {
 }
 
 function NFTImage({ tokenId, getCount }) {
-  const contentId = 'QmfC1sbMZoVx7q6fVnnCuH2K44wPKKAMGqaWD3GapK645t';
+  const contentId = 'QmX6B6DZjsDRjft4TjusNmXWfRv46kv4jxKpSve2QfGwfu';
   const metadataURI = `${contentId}/${tokenId}.json`;
   const imageURI = `https://orange-academic-limpet-487.mypinata.cloud/ipfs/${contentId}/${tokenId}.png`;
   
