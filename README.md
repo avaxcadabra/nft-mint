@@ -76,7 +76,7 @@ Subnet-cli will print a dashboard with networks and endpoints informations
 - ✅ Chain ID:         123
 - ✅ Currency Symbol:  MFY
 
-**Warning** copy the RPC URL and private key somewhere before proceed !
+🔴 WARNING: Copy the RPC URL and private key somewhere before proceed ! 🔴
 
 ## Download the web3 app
 
