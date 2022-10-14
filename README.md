@@ -106,7 +106,7 @@ yarn accounts (the account address with the minted tokens you create when deploy
 yarn balances (the amount of tokens you mint, will be 1 million (base 18)
 ```
 
-If everything going well, you are happy :-)
+If everything going well, you are happy and rich with 1 million tokens :-)
  
 
 ## Compile Contracts
