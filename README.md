@@ -75,13 +75,13 @@ Subnet-cli will print a dashboard with networks and endpoints informations
 - ✅ Network name:     myfactory
 - ✅ Chain ID:         123
 - ✅ Currency Symbol:  MFY
-
+**Warning** copy the RPC URL and private key somewhere before proceed !
 
 ## Download the web3 app
 
 ```zsh
-git clone https://github.com/avaxcadabra/nft-mint
-cd nft-mint
+git clone https://github.com/avaxcadabra/nft-mint \
+cd nft-mint \
 yarn
 ```
 
