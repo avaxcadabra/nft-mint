@@ -91,7 +91,7 @@ yarn
 
 ## Hardhat Config
 
-Hardhat uses `hardhat.config.js` as the configuration file. You can define tasks, networks, compilers and more in that file. For more information see [here](https://hardhat.org/config/).
+Hardhat uses `hardhat.config.js` as configuration file. You can define tasks, networks, compilers and more in that file. For more information see [here](https://hardhat.org/config/).
 
 In our repository we use a pre-configured file hardhat.config.ts
 
