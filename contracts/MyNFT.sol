@@ -13,7 +13,7 @@ contract UglyNFT is ERC721, ERC721URIStorage, Ownable {
 
     mapping(string => uint8) existingURIs;
 
-    constructor() ERC721("UglyNFT", "HGL") {}
+    constructor() ERC721("UglyNFT", "UGL") {}
 
     function _baseURI() internal pure override returns (string memory) {
         return "ipfs://";
