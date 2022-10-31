@@ -2,12 +2,12 @@ const hre = require("hardhat");
 
 async function main() {
 
-  const FiredGuys = await hre.ethers.getContractFactory("FiredGuys");
-  const firedGuys = await FiredGuys.deploy();
+  const UglyNFT = await hre.ethers.getContractFactory("UglyNFT");
+  const uglynft = await UglyNFT.deploy();
 
-  await firedGuys.deployed();
+  await uglynft.deployed();
 
-  console.log("FiredGuys NFT deployed to:", firedGuys.address);
+  console.log("UglyNFT NFT deployed to:", uglynft.address);
 }
 
 main()
