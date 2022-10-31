@@ -2,7 +2,7 @@ import WalletBalance from './WalletBalance';
 import { useEffect, useState } from 'react';
 
 import { ethers } from 'ethers';
-import FiredGuys from '../artifacts/contracts/MyNFT.sol/FiredGuys.json';
+import UglyNFT from '../artifacts/contracts/MyNFT.sol/UglyNFT.json';
 
 const contractAddress = 'YOUR_DEPLOYED_CONTRACT_ADDRESS';
 
@@ -12,7 +12,7 @@ const provider = new ethers.providers.Web3Provider(window.ethereum);
 const signer = provider.getSigner();
 
 // get the smart contract
-const contract = new ethers.Contract(contractAddress, FiredGuys.abi, signer);
+const contract = new ethers.Contract(contractAddress, UglyNFT.abi, signer);
 
 
 function Home() {
@@ -32,7 +32,7 @@ function Home() {
     <div>
       <WalletBalance />
 
-      <h1>Fired Guys NFT Collection</h1>
+     <h1>UglyNFT NFT Collection</h1>
       <div className="container">
         <div className="row">
           {Array(totalMinted + 1)
