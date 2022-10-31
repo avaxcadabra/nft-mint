@@ -51,8 +51,8 @@ function Home() {
 function NFTImage({ tokenId, getCount }) {
   const contentId = 'QmX6B6DZjsDRjft4TjusNmXWfRv46kv4jxKpSve2QfGwfu';
   const metadataURI = `${contentId}/${tokenId}.json`;
-  const imageURI = `https://orange-academic-limpet-487.mypinata.cloud/ipfs/${contentId}/${tokenId}.png`;
-  //const imageURI = `https://ipfs.io/ipfs/${contentId}/${tokenId}.png`; #without pinata but very slow requests
+  //const imageURI = `https://orange-academic-limpet-487.mypinata.cloud/ipfs/${contentId}/${tokenId}.png`;
+  const imageURI = `https://ipfs.io/ipfs/${contentId}/${tokenId}.png`; #without pinata but very slow requests
 
   
 //  const imageURI = `img/${tokenId}.png`;
