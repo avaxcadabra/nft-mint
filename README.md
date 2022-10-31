@@ -132,7 +132,7 @@ First you have to edit the file in src/components/Home.jsx and replace the 7th l
 
 ## Configure metamask
 
-Now you need to access at the 1 million token you minted with metamask wallet
+Now you need to access the 1 million token you minted with metamask wallet (1 million 😱)
 
 To do this, just create a new network
 
