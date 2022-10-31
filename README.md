@@ -1,6 +1,6 @@
 ## Introduction
 
-This tutorial will explain how to create and deploy a subnet, compile and deploy on the newly created subnet a smart contract and then mint some NFT paid with the blcokchain token gournance created with the subnet
+This tutorial will explain how to create and deploy a subnet, compile and deploy on this newly created subnet a smart contract to mint some NFTs paid with the blockchain token gouvernance created with the subnet
     
 ## Prerequisites
 
