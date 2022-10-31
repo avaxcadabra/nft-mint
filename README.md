@@ -1,6 +1,9 @@
 ## Introduction
 
-This tutorial will explain how to create and deploy a subnet, compile and deploy on this newly created subnet a smart contract to mint some NFTs paid with the blockchain token gouvernance created with the subnet
+This tutorial will explain how to :
+1) create and deploy a subnet, 
+2) compile and deploy on this newly created subnet a smart contract,
+3) mint some NFTs paid with the blockchain token gouvernance created with the subnet.
     
 ## Prerequisites
 
@@ -136,9 +139,9 @@ Now you need to access the 1 million token you minted with metamask wallet (1 mi
 
 To do this, just create a new network
 
-In metamsk app: parameters > network > create a new network
+In metamask app: parameters > network > create a new network
 
-Fill with the information of your new subnet
+Fill with the subnet data
 
 - ✅ Network Name: myfactory
 - ✅ New URL RPC: put the RPC URL information given when you deploy your subnet
@@ -147,11 +150,11 @@ Fill with the information of your new subnet
 
 Then save
 
-To access the address with the million token, just chose "import an account" and give the private key you got when deploy your subnet
+To access the address with the million token, just chose "import an account" with the private key you got when you deployd your subnet
 
-And that's all !!! you got a little bit less then 1 million because when you have deployed the contract, you paid the fees for your subnet transactions :-)
+And that's all !!! you got a little bit less then 1 million because when you have deployed the contract, you paid the fees for your subnet transactions 🙂
 
-## Let's mint NFT
+## Let's mint some NFT (ok ok ! I'm not a professional designer) 
 
 Start the web3 app
 
