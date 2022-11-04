@@ -33,7 +33,7 @@ export default {
     },
   networks: {
     local: {
-      url: 'http://127.0.0.1:9650/ext/bc/acDdejjgindhL8ZUgAqwjGhtiNPcbF114KdPN8fgQmTGqPASm/rpc',
+      url: 'YOU_BLOCKCHAIN_RPC_URL',
       gasPrice: 225000000000,
       chainId: 123,
       accounts: ["56289e99c94b6912bfc12adc093c9b51124f0dc54ac7a766b2bc5ccf558d8027"]
