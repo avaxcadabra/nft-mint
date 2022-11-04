@@ -33,10 +33,10 @@ export default {
     },
   networks: {
     local: {
-      url: 'YOU_BLOCKCHAIN_RPC_URL',
+      url: 'YOUR_BLOCKCHAIN_RPC_URL',
       gasPrice: 225000000000,
-      chainId: 123,
-      accounts: ["56289e99c94b6912bfc12adc093c9b51124f0dc54ac7a766b2bc5ccf558d8027"]
+      chainId: YOUR_CHAIN_ID,
+      accounts: ["YOUR_PRIVATE_KEY"]
     },
     fuji: {
       url: 'https://api.avax-test.network/ext/bc/C/rpc',
