@@ -28,7 +28,7 @@ Install GIT
 sudo apt install -y git
 ```
 
-And finally, install [subnet-cli](https://docs.avax.network/quickstart/tools-list#subnet-cli)
+And finally, install [avalanche-cli](https://github.com/ava-labs/avalanche-cli)
 
 ```zsh
 curl -sSfL https://raw.githubusercontent.com/ava-labs/avalanche-cli/main/scripts/install.sh | sudo sh -s -- -b /usr/local/bin
